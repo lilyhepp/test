@@ -62,8 +62,8 @@ def main(argv=None):
             deal_Crawler_sites(item)
     else:
         pass
-        #CommonTool.app_print("doWork: JsonEx.parseSpiderJson exception")
-        #CommonTool.app_print(data)  
+        CommonTool.app_print("doWork: JsonEx.parseSpiderJson exception")
+        CommonTool.app_print(data)  
     
     #deal_Crawler_sites()
     
